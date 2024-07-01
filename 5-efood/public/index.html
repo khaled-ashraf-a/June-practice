@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>eFood</title>
+  </head>
+
+  <body class="bg-bodyC">
+    <!-- Global Container -->
+    <div class="container px-24 mx-auto text-blackC">
+      <!-- Nav -->
+      <nav class="flex items-center justify-between py-16">
+        <!-- Logo -->
+        <p class="text-32px font-medium">
+          <span class="text-orangeC">E</span>Food
+        </p>
+        <!-- Nav Items -->
+        <div class="flex items-center space-x-14">
+          <div class="text-18px text-orangeC">
+            <a href="#">Home</a>
+          </div>
+          <div class="text-18px">
+            <a href="#">Service</a>
+          </div>
+          <div class="text-18px">
+            <a href="#">Top cities</a>
+          </div>
+          <div class="text-18px">
+            <a href="#">Contact</a>
+          </div>
+          <div>
+            <a href="#">
+              <img src="../images/icons/search.svg" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src="../images/icons/cart.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="text-18px text-white px-7 py-3 rounded-lg bg-orangeC shadow-md shadow-orangeC"
+          >
+            <a href="#">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="flex items-center">
+          <!-- Hero Left -->
+          <div class="w-1/2">
+            <h1 class="text-66px font-medium pb-6">
+              Super Fast <span class="text-orangeC">Food Delivery</span> Service
+            </h1>
+            <p class="text-20px pb-12">
+              We provide super fast-delivery service. Let’s use our services
+              right now and get discounts of up to 50%
+            </p>
+            <!-- Hero Left Buttons -->
+            <div class="flex items-center space-x-7">
+              <div
+                class="text-20px text-white px-5 py-3 bg-orangeC shadow-md shadow-orangeC rounded-lg"
+              >
+                <a href="#">Explore Food</a>
+              </div>
+              <div class="text-20px">
+                <a href="#">Download App</a>
+              </div>
+            </div>
+          </div>
+          <!-- Hero Right -->
+          <div class="w-1/2">
+            <img src="../images/hero.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Sandwich Section -->
+      <section id="sandwich">
+        <div class="flex flex-col my-20 space-y-14 items-center w-full">
+          <!-- Title -->
+          <h2 class="text-36px font-medium">
+            Our popular <span class="text-orangeC">Category</span>
+          </h2>
+          <!-- Categories and Meals and Pages -->
+          <div class="flex flex-col space-y-10 items-center w-full">
+            <!-- Categories -->
+            <div class="grid grid-cols-5 gap-6 w-full">
+              <!-- Category 1 -->
+              <div
+                class="flex justify-center items-center w-52 h-16 space-x-2 text-20px bg-orangeC text-white rounded-lg"
+              >
+                <img src="../images/icons/burger.png" alt="" />
+                <p>Burger</p>
+              </div>
+
+              <!-- Category 2 -->
+              <div
+                class="flex justify-center items-center w-52 h-16 space-x-2 text-20px bg-white rounded-lg shadow-sm"
+              >
+                <img src="../images/icons/pizza.png" alt="" />
+                <p>Pizza</p>
+              </div>
+
+              <!-- Category 3 -->
+              <div
+                class="flex justify-center items-center w-52 h-16 space-x-2 text-20px bg-white rounded-lg shadow-sm"
+              >
+                <img src="../images/icons/sandwich.png" alt="" />
+                <p>Sandwich</p>
+              </div>
+
+              <!-- Category 4 -->
+              <div
+                class="flex justify-center items-center w-52 h-16 space-x-2 text-20px bg-white rounded-lg shadow-sm"
+              >
+                <img src="../images/icons/asian.png" alt="" />
+                <p>Asian Food</p>
+              </div>
+
+              <!-- Category 5 -->
+              <div
+                class="flex justify-center items-center w-52 h-16 space-x-2 text-20px bg-white rounded-lg shadow-sm"
+              >
+                <img src="../images/icons/dish.png" alt="" />
+                <p>Set Menu</p>
+              </div>
+            </div>
+
+            <!-- Meals -->
+            <div class="grid grid-cols-5 gap-6 w-full">
+              <!-- Meal 1 -->
+              <div
+                class="flex flex-col items-center bg-white w-52 py-5 rounded-lg shadow-md"
+              >
+                <!-- Meal Image and Rating -->
+                <div class="flex flex-col items-center">
+                  <img class="w-36 h-36" src="../images/sandwich1.png" alt="" />
+                  <div class="flex items-center -mt-4">
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                  </div>
+                </div>
+                <!-- Meal Info -->
+                <div class="flex flex-col items-center pt-6 space-y-2">
+                  <p class="text-14px">Cheeseburger With Salad</p>
+                  <p class="text-14px font-medium">$18.00</p>
+                </div>
+                <!-- Add to Cart Button -->
+                <div
+                  class="text-14px text-white px-3 py-2 mt-3 bg-orangeC text-center rounded-md"
+                >
+                  <a href="#">Add to Cart</a>
+                </div>
+              </div>
+
+              <!-- Meal 2 -->
+              <div
+                class="flex flex-col items-center bg-white w-52 py-5 rounded-lg shadow-md"
+              >
+                <!-- Meal Image and Rating -->
+                <div class="flex flex-col items-center">
+                  <img class="w-36 h-36" src="../images/sandwich2.png" alt="" />
+                  <div class="flex items-center -mt-4">
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                  </div>
+                </div>
+                <!-- Meal Info -->
+                <div class="flex flex-col items-center pt-6 space-y-2">
+                  <p class="text-14px">Beef Burger</p>
+                  <p class="text-14px font-medium">$15.00</p>
+                </div>
+                <!-- Add to Cart Button -->
+                <div
+                  class="text-14px text-white px-3 py-2 mt-3 bg-orangeC text-center rounded-md"
+                >
+                  <a href="#">Add to Cart</a>
+                </div>
+              </div>
+
+              <!-- Meal 3 -->
+              <div
+                class="flex flex-col items-center bg-white w-52 py-5 rounded-lg shadow-md"
+              >
+                <!-- Meal Image and Rating -->
+                <div class="flex flex-col items-center">
+                  <img class="w-36 h-36" src="../images/sandwich3.png" alt="" />
+                  <div class="flex items-center -mt-4">
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                  </div>
+                </div>
+                <!-- Meal Info -->
+                <div class="flex flex-col items-center pt-6 space-y-2">
+                  <p class="text-14px">Royel Cheeseburger</p>
+                  <p class="text-14px font-medium">$16.00</p>
+                </div>
+                <!-- Add to Cart Button -->
+                <div
+                  class="text-14px text-white px-3 py-2 mt-3 bg-orangeC text-center rounded-md"
+                >
+                  <a href="#">Add to Cart</a>
+                </div>
+              </div>
+
+              <!-- Meal 4 -->
+              <div
+                class="flex flex-col items-center bg-white w-52 py-5 rounded-lg shadow-md"
+              >
+                <!-- Meal Image and Rating -->
+                <div class="flex flex-col items-center">
+                  <img class="w-36 h-36" src="../images/sandwich4.png" alt="" />
+                  <div class="flex items-center -mt-4">
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                  </div>
+                </div>
+                <!-- Meal Info -->
+                <div class="flex flex-col items-center pt-6 space-y-2">
+                  <p class="text-14px">Black Gambugrer</p>
+                  <p class="text-14px font-medium">$14.00</p>
+                </div>
+                <!-- Add to Cart Button -->
+                <div
+                  class="text-14px text-white px-3 py-2 mt-3 bg-orangeC text-center rounded-md"
+                >
+                  <a href="#">Add to Cart</a>
+                </div>
+              </div>
+
+              <!-- Meal 5 -->
+              <div
+                class="flex flex-col items-center bg-white w-52 py-5 rounded-lg shadow-md"
+              >
+                <!-- Meal Image and Rating -->
+                <div class="flex flex-col items-center">
+                  <img class="w-36 h-36" src="../images/sandwich5.png" alt="" />
+                  <div class="flex items-center -mt-4">
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                    <img src="../images/icons/star.png" alt="" />
+                  </div>
+                </div>
+                <!-- Meal Info -->
+                <div class="flex flex-col items-center pt-6 space-y-2">
+                  <p class="text-14px">Chicken Burger</p>
+                  <p class="text-14px font-medium">$15.00</p>
+                </div>
+                <!-- Add to Cart Button -->
+                <div
+                  class="text-14px text-white px-3 py-2 mt-3 bg-orangeC text-center rounded-md"
+                >
+                  <a href="#">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pages -->
+            <div class="flex items-center space-x-6">
+              <img src="../images/icons/arrow-left.png" alt="" />
+              <div class="flex items-center space-x-3">
+                <div class="bg-blackC w-3 h-3 rounded-full opacity-20"></div>
+                <div class="bg-orangeC w-3 h-3 rounded-full"></div>
+                <div class="bg-blackC w-3 h-3 rounded-full opacity-20"></div>
+                <div class="bg-blackC w-3 h-3 rounded-full opacity-20"></div>
+              </div>
+              <img src="../images/icons/arrow-right.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service Section -->
+      <section id="service">
+        <div class="flex justify-between items-center mb-32">
+          <!-- Service Left -->
+          <img class="w-1/2 scale-x-[-1]" src="../images/delivery.png" alt="" />
+          <!-- Service Right -->
+          <div class="w-1/2 flex flex-col items-start">
+            <h2 class="w-4/5 text-36px font-medium capitalize pb-7">
+              <span class="text-orangeC">Stay</span> at home, we will Provide
+              <span class="text-orangeC">good food</span>
+            </h2>
+            <p class="text-20px opacity-90 leading-8 pb-3">
+              We provide tasty food and superfast delivery at your home. Let’s
+              use our services right now and get discounts of up to 50%.
+            </p>
+
+            <div class="flex flex-col capitalize space-y-5 pb-12">
+              <div class="flex items-center space-x-6">
+                <img src="../images/icons/Time.png" alt="" />
+                <p class="text-24px">fast delivery in 30 Minutes</p>
+              </div>
+              <div class="flex items-center space-x-6">
+                <img src="../images/icons/deliver.png" alt="" />
+                <p class="text-24px">300+ delivery men</p>
+              </div>
+              <div class="flex items-center space-x-6">
+                <img src="../images/icons/restaurant.png" alt="" />
+                <p class="text-24px">500+ restaurant & cafe shop</p>
+              </div>
+            </div>
+
+            <div
+              class="text-white text-20px bg-orangeC px-11 py-4 rounded-full rounded-se-none shadow-md shadow-orangeC"
+            >
+              <a href="#">See more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top Food Section -->
+      <section id="top-food">
+        <div class="flex flex-col space-y-12 mb-40">
+          <h3 class="text-center text-36px font-medium">
+            Top Food <span class="text-orangeC">restaurant</span>
+          </h3>
+          <!-- Cards Grid -->
+          <div class="grid grid-cols-3 gap-10 mx-auto">
+            <!-- Card 1 -->
+            <div
+              class="flex flex-col bg-white rounded-tl-[53px] rounded-br-[53px] shadow-sm"
+            >
+              <div
+                class="bg-[url('../images/pizza1.png')] h-72 bg-center bg-cover rounded-tl-[53px]"
+              ></div>
+              <div class="flex flex-col px-5 pb-5">
+                <p class="text-24px pt-5 pb-3">Blaze Pizza</p>
+                <div class="flex items-center space-x-7">
+                  <div class="flex items-center space-x-2">
+                    <img src="../images/icons/restaurant-time.png" alt="" />
+                    <p class="text-16px font-light opacity-90">
+                      11.00 AM - 10.00 PM
+                    </p>
+                  </div>
+                  <div>
+                    <img
+                      class="px-7 py-1 bg-orangeC rounded-full rounded-br-none"
+                      src="../images/icons/arrow-small-right.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="flex flex-col bg-white rounded-tl-[53px] rounded-br-[53px] shadow-sm"
+            >
+              <div
+                class="bg-[url('../images/pizza2.png')] h-72 bg-center bg-cover rounded-tl-[53px]"
+              ></div>
+              <div class="flex flex-col px-5 pb-5">
+                <p class="text-24px pt-5 pb-3">Pizza Ranch</p>
+                <div class="flex items-center space-x-7">
+                  <div class="flex items-center space-x-2">
+                    <img src="../images/icons/restaurant-time.png" alt="" />
+                    <p class="text-16px font-light opacity-90">
+                      09.00 AM - 10.00 PM
+                    </p>
+                  </div>
+                  <div>
+                    <img
+                      class="px-7 py-1 bg-orangeC rounded-full rounded-br-none"
+                      src="../images/icons/arrow-small-right.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="flex flex-col bg-white rounded-tl-[53px] rounded-br-[53px] shadow-sm"
+            >
+              <div
+                class="bg-[url('../images/pizza3.png')] h-72 bg-center bg-cover rounded-tl-[53px]"
+              ></div>
+              <div class="flex flex-col px-5 pb-5">
+                <p class="text-24px pt-5 pb-3">Dion’s Pizza Hut</p>
+                <div class="flex items-center space-x-7">
+                  <div class="flex items-center space-x-2">
+                    <img src="../images/icons/restaurant-time.png" alt="" />
+                    <p class="text-16px font-light opacity-90">
+                      10.00 AM - 12.00 PM
+                    </p>
+                  </div>
+                  <div>
+                    <img
+                      class="px-7 py-1 bg-orangeC rounded-full rounded-br-none"
+                      src="../images/icons/arrow-small-right.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div
+              class="flex flex-col bg-white rounded-tl-[53px] rounded-br-[53px] shadow-sm"
+            >
+              <div
+                class="bg-[url('../images/pizza4.png')] h-72 bg-center bg-cover rounded-tl-[53px]"
+              ></div>
+              <div class="flex flex-col px-5 pb-5">
+                <p class="text-24px pt-5 pb-3">Royel Burger</p>
+                <div class="flex items-center space-x-7">
+                  <div class="flex items-center space-x-2">
+                    <img src="../images/icons/restaurant-time.png" alt="" />
+                    <p class="text-16px font-light opacity-90">
+                      11.00 AM - 10.00 PM
+                    </p>
+                  </div>
+                  <div>
+                    <img
+                      class="px-7 py-1 bg-orangeC rounded-full rounded-br-none"
+                      src="../images/icons/arrow-small-right.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div
+              class="flex flex-col bg-white rounded-tl-[53px] rounded-br-[53px] shadow-sm"
+            >
+              <div
+                class="bg-[url('../images/pizza5.png')] h-72 bg-center bg-cover rounded-tl-[53px]"
+              ></div>
+              <div class="flex flex-col px-5 pb-5">
+                <p class="text-24px pt-5 pb-3">KFC Restaurant</p>
+                <div class="flex items-center space-x-7">
+                  <div class="flex items-center space-x-2">
+                    <img src="../images/icons/restaurant-time.png" alt="" />
+                    <p class="text-16px font-light opacity-90">
+                      09.00 AM - 10.00 PM
+                    </p>
+                  </div>
+                  <div>
+                    <img
+                      class="px-7 py-1 bg-orangeC rounded-full rounded-br-none"
+                      src="../images/icons/arrow-small-right.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div
+              class="flex flex-col bg-white rounded-tl-[53px] rounded-br-[53px] shadow-sm"
+            >
+              <div
+                class="bg-[url('../images/pizza6.png')] h-72 bg-center bg-cover rounded-tl-[53px]"
+              ></div>
+              <div class="flex flex-col px-5 pb-5">
+                <p class="text-24px pt-5 pb-3">Star Food</p>
+                <div class="flex items-center space-x-7">
+                  <div class="flex items-center space-x-2">
+                    <img src="../images/icons/restaurant-time.png" alt="" />
+                    <p class="text-16px font-light opacity-90">
+                      10.00 AM - 12.00 PM
+                    </p>
+                  </div>
+                  <div>
+                    <img
+                      class="px-7 py-1 bg-orangeC rounded-full rounded-br-none"
+                      src="../images/icons/arrow-small-right.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mobile App Section -->
+      <section id="app">
+        <div class="flex items-center mb-36">
+          <!-- App Left -->
+          <div class="w-1/2 flex flex-col space-y-7">
+            <h3 class="text-36px font-medium">
+              Download Our <span class="text-orangeC">Mobile App</span>
+            </h3>
+            <p class="text-20px opacity-90 leading-8">
+              It's all at your fingertips -- the restaurants you love. Find the
+              right food to suit your mood, and make the first bite last. Go
+              ahead, download app and get 50% discount
+            </p>
+            <div class="flex items-center space-x-9">
+              <a href="#">
+                <img src="../images/ios.png" alt="" />
+              </a>
+              <a href="#">
+                <img src="../images/android.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <!-- App Right -->
+          <div
+            class="w-1/2 flex items-center space-x-1 *:w-52 *:border-black *:border-2 *:rounded-xl"
+          >
+            <img
+              class="relative z-10 origin-top-right -rotate-12 shadow-md"
+              src="../images/iphone-left.png"
+              alt=""
+            />
+            <img
+              class="relative z-20 shadow-2xl"
+              src="../images/iphone-middle.png"
+              alt=""
+            />
+            <img
+              class="relative z-10 origin-top-left rotate-12 shadow-md"
+              src="../images/iphone-right.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+      <section id="testimonial">
+        <div class="flex flex-col space-y-16 mb-36">
+          <h2 class="text-center text-36px font-medium tracking-wide">
+            What Our Client Are <span class="text-orangeC">Saying</span>
+          </h2>
+          <div class="flex items-center justify-between">
+            <!-- Left -->
+            <div
+              class="bg-[url(../images/client.png)] w-2/5 h-big bg-cover bg-center rounded-xl"
+            ></div>
+            <!-- Right -->
+            <div class="w-1/2 flex flex-col space-y-16 px-8">
+              <p class="text-20px leading-10">
+                EFood has the most intriguing food order system in the country.
+                UI in both their app and web Is very simple and easy to use,
+                enhancing the UX. Their delivery men are also quite professional
+                and knows the neighborhood well. Till now I never had to guide
+                them to my address for delivery;
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex flex-col space-y-4">
+                  <p class="text-20px font-medium text-orangeC">Anglina Jole</p>
+                  <p class="text-14px text-grayC">Food Lover</p>
+                </div>
+                <div class="flex items-center space-x-11">
+                  <img src="../images/icons/test-arrow-left.png" alt="" />
+                  <img src="../images/icons/test-arrow-right.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter Section -->
+      <section id="newsletter">
+        <div
+          class="flex flex-col justify-center items-center text-white bg-orangeC rounded-2xl py-14 mb-32"
+        >
+          <h2 class="text-40px font-medium pb-4">
+            Subscribe to get the Latest Offer
+          </h2>
+          <p class="text-16px opacity-80 pb-8">
+            Get our daily updates by subscribing to our newspaper, please drop
+            your email below
+          </p>
+          <div
+            class="flex items-center justify-between w-4/6 rounded-full pl-10 pr-2 py-2 bg-white"
+          >
+            <input
+              type="text"
+              placeholder="Enter your email addres"
+              class="text-blackC placeholder:text-18px placeholder:opacity-90 focus:outline-none"
+            />
+            <a
+              class="flex items-center space-x-2 bg-orangeC rounded-full px-6 py-4"
+              href="#"
+            >
+              <img src="../images/icons/letter.png" alt="" />
+              <p class="text-20px font-medium">Subscribe</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <section id="footer">
+        <div class="flex items-start justify-between mb-16">
+          <!-- Footer Column 1 -->
+          <div class="flex flex-col space-y-4">
+            <a class="text-32px font-medium -mt-2" href="#"
+              ><span class="text-orangeC">E</span>Food</a
+            >
+            <div class="flex flex-col space-y-4">
+              <a class="flex items-center space-x-2" href="#">
+                <img src="../images/icons/location.png" alt="" />
+                <p>Dhaka, Bangladesh</p>
+              </a>
+              <a class="flex items-center space-x-2" href="#">
+                <img src="../images/icons/phone.png" alt="" />
+                <p>0943833399</p>
+              </a>
+              <a class="flex items-center space-x-2" href="#">
+                <img src="../images/icons/message.png" alt="" />
+                <p>support@efood.com</p>
+              </a>
+            </div>
+            <div class="flex items-center space-x-3">
+              <a
+                class="w-10 h-10 bg-graySocial rounded-full flex items-center justify-center"
+                href="#"
+              >
+                <img src="../images/icons/ic-facebook.svg" alt="" />
+              </a>
+              <a
+                class="w-10 h-10 bg-graySocial rounded-full flex items-center justify-center"
+                href="#"
+              >
+                <img src="../images/icons/ic-twitter.svg" alt="" />
+              </a>
+              <a
+                class="w-10 h-10 bg-graySocial rounded-full flex items-center justify-center"
+                href="#"
+              >
+                <img src="../images/icons/ic-instagram.svg" alt="" />
+              </a>
+              <a
+                class="w-10 h-10 bg-graySocial rounded-full flex items-center justify-center"
+                href="#"
+              >
+                <img src="../images/icons/ic-pinterset.svg" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <!-- Footer Column 2 -->
+          <div class="flex flex-col space-y-4 text-18px">
+            <a class="font-medium" href="#">Service</a>
+            <a href="#">How it works</a>
+            <a href="#">Home Delivery</a>
+            <a href="#">Products</a>
+            <a href="#">Menu</a>
+          </div>
+
+          <!-- Footer Column 3 -->
+          <div class="flex flex-col space-y-4 text-18px">
+            <a class="font-medium" href="#">Company</a>
+            <a href="#">About Us</a>
+            <a href="#">News</a>
+            <a href="#">Our Trusted Partner</a>
+            <a href="#">New Users FAQ</a>
+          </div>
+
+          <!-- Footer Column 4 -->
+          <div class="flex flex-col space-y-4 text-18px">
+            <a class="font-medium" href="#">Support</a>
+            <a href="#">Help Center</a>
+            <a href="#">Feedback</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
+
+          <!-- Footer Column 5 -->
+          <div class="flex flex-col space-y-4 text-18px">
+            <a class="font-medium" href="#">Resources</a>
+            <a href="#">Download App</a>
+            <a href="#">Blog</a>
+            <a href="#">What's New</a>
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

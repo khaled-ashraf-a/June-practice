@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>NFT Marketplace</title>
+  </head>
+
+  <body>
+    <!-- Nav Section -->
+    <nav
+      class="flex items-center justify-between px-12 py-5 bg-grayBg text-white"
+    >
+      <!-- Nav Left -->
+      <div class="flex items-center space-x-3">
+        <img src="../images/icons/logo.png" alt="" />
+        <img src="../images/icons/logo2.png" alt="" />
+      </div>
+      <!-- Nav Right -->
+      <div class="flex items-center space-x-2">
+        <a class="text-16px font-semibold px-5 py-3" href="#">Marketplace</a>
+        <a class="text-16px font-semibold px-5 py-3" href="#">Rankings</a>
+        <a class="text-16px font-semibold px-5 py-3" href="#"
+          >Connect a wallet</a
+        >
+        <a
+          class="flex items-center px-7 py-4 text-16px font-semibold bg-purpleC rounded-2xl space-x-3"
+          href="#"
+        >
+          <img src="../images/icons/user.png" alt="" />
+          <p>Sign Up</p>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="bg-grayBg px-36 py-20">
+        <div class="flex items-center">
+          <!-- Hero Left -->
+          <div class="flex flex-col items-start text-white w-1/2">
+            <h1
+              class="text-67px font-semibold leading-tight w-4/5 capitalize mb-5"
+            >
+              Discover digital art & Collect NFTs
+            </h1>
+            <p class="text-22px w-5/6 capitalize mb-7">
+              NFT marketplace UI created with Anima for Figma. Collect, buy and
+              sell art from more than 20k NFT artists.
+            </p>
+            <a
+              class="flex items-center px-7 py-4 mb-7 text-16px font-semibold bg-purpleC rounded-2xl space-x-3"
+              href="#"
+            >
+              <img src="../images/icons/rocket.png" alt="" />
+              <p>Get Started</p>
+            </a>
+            <div class="flex w-5/6 items-center justify-between">
+              <div class="flex flex-col">
+                <p class="text-28px font-bold">240k+</p>
+                <p class="text-24px">Total Sale</p>
+              </div>
+              <div class="flex flex-col">
+                <p class="text-28px font-bold">100k+</p>
+                <p class="text-24px">Auctions</p>
+              </div>
+              <div class="flex flex-col">
+                <p class="text-28px font-bold">240k+</p>
+                <p class="text-24px">Artists</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Right -->
+          <div class="flex-col rounded-2xl bg-cardGray text-white">
+            <img src="../images/hero-right.png" alt="" />
+            <div class="flex flex-col p-5 space-y-3">
+              <p class="text-22px font-semibold">Space Walking</p>
+              <div class="flex items-center space-x-3">
+                <img src="../images/hero-avatar.png" alt="" />
+                <p class="text-16px">Animakid</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending Section -->
+    <section id="trending">
+      <div class="bg-grayBg px-36 py-20 text-white capitalize">
+        <div class="flex flex-col">
+          <!-- Top -->
+          <div class="flex flex-col space-y-2 mb-14">
+            <h2 class="text-38px font-semibold">Trending Collection</h2>
+            <p class="text-22px">
+              Checkout our weekly updated trending collection.
+            </p>
+          </div>
+          <!-- Bottom -->
+          <div class="flex justify-between items-center">
+            <!-- Box 1 -->
+            <div class="flex flex-col space-y-4">
+              <div class="flex flex-col space-y-4">
+                <div
+                  class="w-[330px] h-[330px] bg-[url('../images/card1.png')]"
+                ></div>
+                <div class="flex items-center justify-between">
+                  <div
+                    class="w-[100px] h-[100px] bg-[url('../images/card1-1.png')]"
+                  ></div>
+                  <div
+                    class="w-[100px] h-[100px] bg-[url('../images/card1-2.png')]"
+                  ></div>
+                  <div
+                    class="flex items-center justify-center text-22px font-mono font-bold w-[100px] h-[100px] rounded-[20px] bg-purpleC"
+                  >
+                    1025+
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col space-y-3">
+                <p class="text-22px font-semibold">DSGN Animals</p>
+                <div class="flex items-center space-x-3">
+                  <img src="../images/card1-avatar.png" alt="" />
+                  <p class="text-16px">MrFox</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="flex flex-col space-y-4">
+              <div class="flex flex-col space-y-4">
+                <div
+                  class="w-[330px] h-[330px] bg-[url('../images/card2.png')]"
+                ></div>
+                <div class="flex items-center justify-between">
+                  <div
+                    class="w-[100px] h-[100px] bg-[url('../images/card2-1.png')]"
+                  ></div>
+                  <div
+                    class="w-[100px] h-[100px] bg-[url('../images/card2-2.png')]"
+                  ></div>
+                  <div
+                    class="flex items-center justify-center text-22px font-mono font-bold w-[100px] h-[100px] rounded-[20px] bg-purpleC"
+                  >
+                    1025+
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col space-y-3">
+                <p class="text-22px font-semibold">Magic Mushrooms</p>
+                <div class="flex items-center space-x-3">
+                  <img src="../images/card2-avatar.png" alt="" />
+                  <p class="text-16px">Shroomie</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="flex flex-col space-y-4">
+              <div class="flex flex-col space-y-4">
+                <div
+                  class="w-[330px] h-[330px] bg-[url('../images/card3.png')]"
+                ></div>
+                <div class="flex items-center justify-between">
+                  <div
+                    class="w-[100px] h-[100px] bg-[url('../images/card3-1.png')]"
+                  ></div>
+                  <div
+                    class="w-[100px] h-[100px] bg-[url('../images/card3-2.png')]"
+                  ></div>
+                  <div
+                    class="flex items-center justify-center text-22px font-mono font-bold w-[100px] h-[100px] rounded-[20px] bg-purpleC"
+                  >
+                    1025+
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col space-y-3">
+                <p class="text-22px font-semibold">Disco Machines</p>
+                <div class="flex items-center space-x-3">
+                  <img src="../images/card3-avatar.png" alt="" />
+                  <p class="text-16px">BeKind2Robots</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Creators Section -->
+    <section id="creators">
+      <div class="bg-grayBg px-36 py-20 text-white capitalize">
+        <div class="flex flex-col">
+          <!-- Top -->
+          <div class="flex items-center justify-between mb-14">
+            <!-- Top Left -->
+            <div class="flex flex-col space-y-2">
+              <h2 class="text-38px font-semibold">Top creators</h2>
+              <p class="text-22px">
+                Checkout Top Rated Creators on the NFT Marketplace
+              </p>
+            </div>
+            <!-- Top Right -->
+            <div>
+              <a
+                href="#"
+                class="flex items-center space-x-3 px-12 py-5 text-16px font-semibold border-2 border-purpleC rounded-[20px]"
+              >
+                <img src="../images/icons/rocket-purple.png" alt="" />
+                <p>View Rankings</p>
+              </a>
+            </div>
+          </div>
+          <!-- Bottom -->
+          <div class="flex items-start justify-between flex-wrap gap-y-8">
+            <!-- Card 1 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                1
+              </div>
+              <img class="mb-5" src="../images/creator-1.png" alt="" />
+              <p class="text-22px font-semibold mb-1">Keepitreal</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                2
+              </div>
+              <img class="mb-5" src="../images/creator-2.png" alt="" />
+              <p class="text-22px font-semibold mb-1">DigiLab</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                3
+              </div>
+              <img class="mb-5" src="../images/creator-3.png" alt="" />
+              <p class="text-22px font-semibold mb-1">GravityOne</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                4
+              </div>
+              <img class="mb-5" src="../images/creator-4.png" alt="" />
+              <p class="text-22px font-semibold mb-1">Juanie</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                5
+              </div>
+              <img class="mb-5" src="../images/creator-5.png" alt="" />
+              <p class="text-22px font-semibold mb-1">BlueWhale</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                6
+              </div>
+              <img class="mb-5" src="../images/creator-6.png" alt="" />
+              <p class="text-22px font-semibold mb-1">mr fox</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                7
+              </div>
+              <img class="mb-5" src="../images/creator-7.png" alt="" />
+              <p class="text-22px font-semibold mb-1">Shroomie</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                8
+              </div>
+              <img class="mb-5" src="../images/creator-8.png" alt="" />
+              <p class="text-22px font-semibold mb-1">robotica</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                9
+              </div>
+              <img class="mb-5" src="../images/creator-9.png" alt="" />
+              <p class="text-22px font-semibold mb-1">RustyRobot</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 10 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                10
+              </div>
+              <img class="mb-5" src="../images/creator-10.png" alt="" />
+              <p class="text-22px font-semibold mb-1">animakid</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 11 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                11
+              </div>
+              <img class="mb-5" src="../images/creator-11.png" alt="" />
+              <p class="text-22px font-semibold mb-1">Dotgu</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+
+            <!-- Card 12 -->
+            <div
+              class="relative flex flex-col items-center p-5 rounded-2xl bg-cardGray"
+            >
+              <div
+                class="absolute top-4 left-4 w-8 h-8 flex justify-center items-center text-16px font-mono bg-grayBg rounded-full"
+              >
+                12
+              </div>
+              <img class="mb-5" src="../images/creator-12.png" alt="" />
+              <p class="text-22px font-semibold mb-1">Ghiblier</p>
+              <div class="flex items-center space-x-2">
+                <p class="text-16px text-smallTextGray">Total Sales:</p>
+                <p class="text-16px font-mono">34.53 ETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories">
+      <div class="bg-grayBg px-36 py-20 text-white">
+        <h2 class="text-38px font-semibold mb-14">Browse Categories</h2>
+        <div class="flex items-center justify-between flex-wrap gap-y-8">
+          <!-- Card 1 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <div class="relative">
+              <img
+                class="w-60 h-60 blur-sm"
+                src="../images/category-1.png"
+                alt=""
+              />
+              <img
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                src="../images/icons/category-1.png"
+                alt=""
+              />
+            </div>
+            <div class="px-7 py-5">
+              <p class="text-22px font-semibold">Art</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <div class="relative">
+              <img
+                class="w-60 h-60 blur-sm"
+                src="../images/category-2.png"
+                alt=""
+              />
+              <img
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                src="../images/icons/category-2.png"
+                alt=""
+              />
+            </div>
+            <div class="px-7 py-5">
+              <p class="text-22px font-semibold">Collectibles</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <div class="relative">
+              <img
+                class="w-60 h-60 blur-sm"
+                src="../images/category-3.png"
+                alt=""
+              />
+              <img
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                src="../images/icons/category-3.png"
+                alt=""
+              />
+            </div>
+            <div class="px-7 py-5">
+              <p class="text-22px font-semibold">Music</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <div class="relative">
+              <img
+                class="w-60 h-60 blur-sm"
+                src="../images/category-4.png"
+                alt=""
+              />
+              <img
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                src="../images/icons/category-4.png"
+                alt=""
+              />
+            </div>
+            <div class="px-7 py-5">
+              <p class="text-22px font-semibold">Photography</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <div class="relative">
+              <img
+                class="w-60 h-60 blur-sm"
+                src="../images/category-5.png"
+                alt=""
+              />
+              <img
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                src="../images/icons/category-5.png"
+                alt=""
+              />
+            </div>
+            <div class="px-7 py-5">
+              <p class="text-22px font-semibold">Video</p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <div class="relative">
+              <img
+                class="w-60 h-60 blur-sm"
+                src="../images/category-6.png"
+                alt=""
+              />
+              <img
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                src="../images/icons/category-6.png"
+                alt=""
+              />
+            </div>
+            <div class="px-7 py-5">
+              <p class="text-22px font-semibold">Utility</p>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <div class="relative">
+              <img
+                class="w-60 h-60 blur-sm"
+                src="../images/category-7.png"
+                alt=""
+              />
+              <img
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                src="../images/icons/category-7.png"
+                alt=""
+              />
+            </div>
+            <div class="px-7 py-5">
+              <p class="text-22px font-semibold">Sport</p>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <div class="relative">
+              <img
+                class="w-60 h-60 blur-sm"
+                src="../images/category-8.png"
+                alt=""
+              />
+              <img
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                src="../images/icons/category-8.png"
+                alt=""
+              />
+            </div>
+            <div class="px-7 py-5">
+              <p class="text-22px font-semibold">Virtual Worlds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discover Section -->
+    <section id="discover">
+      <div class="bg-grayBg px-36 py-20 text-white capitalize">
+        <!-- Top -->
+        <div class="flex items-center justify-between mb-14">
+          <!-- Top Left -->
+          <div class="flex flex-col space-y-2">
+            <h2 class="text-38px font-semibold">Discover More NFTs</h2>
+            <p class="text-22px">Explore new trending NFTs</p>
+          </div>
+          <!-- Top Right -->
+          <div>
+            <a
+              href="#"
+              class="flex items-center space-x-3 px-12 py-5 text-16px font-semibold border-2 border-purpleC rounded-[20px]"
+            >
+              <img src="../images/icons/Eye.png" alt="" />
+              <p>See All</p>
+            </a>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="flex items-center justify-between">
+          <!-- Card 1 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <img src="../images/discover-1.png" alt="" />
+            <div class="flex flex-col py-5 px-7 space-y-1">
+              <p class="text-22px font-semibold">Distant Galaxy</p>
+              <div class="flex items-center space-x-3">
+                <img src="../images/discover-avatar-1.png" alt="" />
+                <p class="text-16px">MoonDancer</p>
+              </div>
+              <div class="flex items-center justify-between pt-5">
+                <div class="flex flex-col space-y-2">
+                  <p class="text-12px font-mono text-smallTextGray">Price</p>
+                  <p class="text-16px font-mono">1.63 ETH</p>
+                </div>
+                <div class="flex flex-col space-y-2">
+                  <p class="text-12px font-mono text-smallTextGray">
+                    Highest Bid
+                  </p>
+                  <p class="text-16px font-mono">0.33 wETH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <img src="../images/discover-2.png" alt="" />
+            <div class="flex flex-col py-5 px-7 space-y-1">
+              <p class="text-22px font-semibold">Life On Edena</p>
+              <div class="flex items-center space-x-3">
+                <img src="../images/discover-avatar-2.png" alt="" />
+                <p class="text-16px">NebulaKid</p>
+              </div>
+              <div class="flex items-center justify-between pt-5">
+                <div class="flex flex-col space-y-2">
+                  <p class="text-12px font-mono text-smallTextGray">Price</p>
+                  <p class="text-16px font-mono">1.63 ETH</p>
+                </div>
+                <div class="flex flex-col space-y-2">
+                  <p class="text-12px font-mono text-smallTextGray">
+                    Highest Bid
+                  </p>
+                  <p class="text-16px font-mono">0.33 wETH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="flex flex-col bg-cardGray rounded-[20px]">
+            <img src="../images/discover-3.png" alt="" />
+            <div class="flex flex-col py-5 px-7 space-y-1">
+              <p class="text-22px font-semibold">AstroFiction</p>
+              <div class="flex items-center space-x-3">
+                <img src="../images/discover-avatar-3.png" alt="" />
+                <p class="text-16px">Spaceone</p>
+              </div>
+              <div class="flex items-center justify-between pt-5">
+                <div class="flex flex-col space-y-2">
+                  <p class="text-12px font-mono text-smallTextGray">Price</p>
+                  <p class="text-16px font-mono">1.63 ETH</p>
+                </div>
+                <div class="flex flex-col space-y-2">
+                  <p class="text-12px font-mono text-smallTextGray">
+                    Highest Bid
+                  </p>
+                  <p class="text-16px font-mono">0.33 wETH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mushroom Section -->
+    <section id="mushroom">
+      <div
+        class="flex items-end justify-between px-36 py-20 h-screen w-full bg-center bg-cover text-white"
+        style="
+          background-image: linear-gradient(
+              180deg,
+              rgba(162, 89, 255, 0) 0%,
+              #a259ff 100%
+            ),
+            url('../images/mushroom.jpg');
+        "
+      >
+        <!-- Left -->
+        <div class="flex flex-col justify-end items-start space-y-8 w-1/2">
+          <div
+            class="flex items-center px-5 py-3 rounded-2xl bg-cardGray space-x-3"
+          >
+            <img src="../images/mushroom-avatar.png" alt="" />
+            <p class="text-16px">Shroomie</p>
+          </div>
+          <h2 class="text-51px font-semibold">Magic Mashrooms</h2>
+          <a
+            href="#"
+            class="flex items-center px-12 py-5 rounded-2xl bg-white space-x-3"
+          >
+            <img src="../images/icons/Eye.png" alt="" />
+            <p class="text-grayBg text-16px font-semibold">See NFT</p>
+          </a>
+        </div>
+        <!-- Right -->
+        <div class="isolate aspect-video rounded-xl bg-cardGray/50 shadow-2xl ring-1 ring-black/5">
+          <div class="flex flex-col p-7">
+            <p class="text-12px font-mono">Auction ends in:</p>
+            <div class="flex items-start justify-between space-x-2">
+              <div class="flex flex-col">
+                <p class="text-38px font-bold font-mono">59</p>
+                <p class="text-12px font-mono">Hours</p>
+              </div>
+              <div>
+                <p class="text-28px font-bold font-mono">:</p>
+              </div>
+              <div class="flex flex-col">
+                <p class="text-38px font-bold font-mono">59</p>
+                <p class="text-12px font-mono">Minutes</p>
+              </div>
+              <div>
+                <p class="text-28px font-bold font-mono">:</p>
+              </div>
+              <div class="flex flex-col">
+                <p class="text-38px font-bold font-mono">59</p>
+                <p class="text-12px font-mono">Seconds</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it Works Section -->
+     <section id="how-it-works">
+      <div class="bg-grayBg px-36 py-20 text-white">
+        <h2 class="text-38px font-semibold">How It Works</h2>
+        <p class="text-22px mt-2 mb-12">Find out how to get started</p>
+        <div class="flex items-stretch justify-between space-x-7">
+          <!-- Card 1 -->
+           <div class="flex flex-col items-center text-center space-y-5 p-7 bg-cardGray rounded-2xl">
+            <img class="w-[220px] h-[220px]" src="../images/how-1.png" alt="">
+            <div class="flex flex-col space-y-2">
+              <p class="text-22px font-semibold">Setup Your wallet</p>
+              <p class="text-16px max-w-2xl">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+            </div>
+           </div>
+
+           <!-- Card 2 -->
+           <div class="flex flex-col items-center text-center space-y-5 p-7 bg-cardGray rounded-2xl">
+            <img class="w-[220px] h-[220px]" src="../images/how-2.png" alt="">
+            <div class="flex flex-col space-y-2">
+              <p class="text-22px font-semibold">Create Collection</p>
+              <p class="text-16px max-w-2xl">Upload your work and setup your collection. Add a description, social links and floor price.</p>
+            </div>
+           </div>
+
+           <!-- Card 3 -->
+           <div class="flex flex-col items-center text-center space-y-5 p-7 bg-cardGray rounded-2xl">
+            <img class="w-[220px] h-[220px]" src="../images/how-3.png" alt="">
+            <div class="flex flex-col space-y-2">
+              <p class="text-22px font-semibold">Start Earning</p>
+              <p class="text-16px max-w-2xl">Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.</p>
+            </div>
+           </div>
+        </div>
+
+      </div>
+     </section>
+
+     <!-- Newsletter Section -->
+      <section id="newsletter">
+        <div class="bg-grayBg px-36 py-20 text-white capitalize">
+          <div class="p-16 flex justify-between items-center bg-cardGray rounded-2xl">
+            <!-- Left -->
+             <img src="../images/newsletter.png" alt="">
+             <!-- Right -->
+              <div class="flex flex-col space-y-10 w-1/2">
+                <div class="flex flex-col space-y-2">
+                  <h2 class="text-38px font-semibold">Join our weekly digest</h2>
+                  <p class="text-22px">Get exclusive promotions & updates straight to your inbox.</p>
+                </div>
+                <div class="flex items-center justify-between bg-white rounded-2xl pl-5">
+                  <input class="py-5 placeholder:text-16px placeholder:text-grayBg" type="text" placeholder="Enter your email here">
+                  <a href="#" class="flex items-center bg-purpleC px-12 py-5 rounded-2xl space-x-3">
+                    <img src="../images/icons/envelope.png" alt="">
+                    <p class="text-16px font-semibold">Subscribe</p>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+       <section id="footer">
+        <div class="bg-cardGray px-36 py-10 text-white capitalize">
+          <div class="flex items-start">
+            <!-- Left -->
+             <div class="w-6/12 flex items-start justify-between">
+              <!-- Left Left -->
+              <div class="w-1/2 flex flex-col">
+                <div class="flex items-center space-x-3 mb-7">
+                  <img src="../images/icons/logo.png" alt="">
+                  <img src="../images/icons/logo2.png" alt="">
+                </div>
+                <p class="mb-5 text-16px text-footerGray">NFT marketplace UI created with Anima for Figma.</p>
+                <p class="mb-4 text-16px text-footerGray">Join our community</p>
+                <div class="flex items-center space-x-2">
+                  <a href="#">
+                    <img src="../images/social/DiscordLogo.png" alt="">
+                  </a>
+                  <a href="#">
+                    <img src="../images/social/YoutubeLogo.png" alt="">
+                  </a>
+                  <a href="#">
+                    <img src="../images/social/TwitterLogo.png" alt="">
+                  </a>
+                  <a href="#">
+                    <img src="../images/social/InstagramLogo.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <!-- Left Right -->
+               <div class="ml-auto pr-14 flex flex-col space-y-6">
+                <p class="text-22px font-mono font-bold">Explore</p>
+                <div class="flex flex-col space-y-5">
+                  <a href="#" class="text-16px text-footerGray">Marketplace</a>
+                  <a href="#" class="text-16px text-footerGray">Rankings</a>
+                  <a href="#" class="text-16px text-footerGray">Connect a wallet</a>
+                </div>
+               </div>
+             </div>
+             
+             <!-- Right -->
+              <div class="flex flex-col">
+                <p class="text-22px font-mono font-bold pb-6">Join our weekly digest</p>
+                <p class="text-16px text-footerGray pb-5 w-2/3">Get exclusive promotions & updates straight to your inbox.</p>
+                <div class="flex items-center justify-between bg-white rounded-2xl pl-5">
+                  <input class="py-5 placeholder:text-16px placeholder:text-grayBg" type="text" placeholder="Enter your email here">
+                  <a href="#" class="flex items-center bg-purpleC px-12 py-5 rounded-2xl space-x-3">
+                    <p class="text-16px font-semibold">Subscribe</p>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+       </section>
+  </body>
+</html>

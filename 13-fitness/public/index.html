@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fitness</title>
+  </head>
+
+  <body class="relative bg-offWhite">
+    <!-- Nav -->
+    <nav
+      class="absolute top-8 w-full px-32 flex items-center justify-between z-20"
+    >
+      <!-- Left -->
+      <div class="w-1/2 flex items-center space-x-32">
+        <img src="../images/icons/Logo.png" alt="" />
+        <div
+          class="flex items-center space-x-16 text-24px font-serif leading-[1.6] text-linkBrown"
+        >
+          <a href="#" class="text-darkBrown border-b-2 border-b-brightRed"
+            >Home</a
+          >
+          <a href="#">Home</a>
+          <a href="#">Home</a>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <a href="#">
+        <img src="../images/icons/Menu.png" alt="" />
+      </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="relative flex items-center z-10">
+        <!-- Left -->
+        <div class="relative w-1/2 flex flex-col space-y-16 px-20">
+          <div class="flex flex-col">
+            <div class="flex items-baseline space-x-1 pb-10">
+              <div class="h-0.5 w-6 bg-brightRed"></div>
+              <p class="text-brightRed text-26px font-semibold">Fitness Club</p>
+              <img src="../images/icons/fitness.png" alt="" class="pl-3" />
+            </div>
+            <div class="flex flex-col space-y-6">
+              <h1 class="text-80px text-darkBrown font-bold leading-[1.1]">
+                Sweat, Smile And Repeat
+              </h1>
+              <p class="text-22px leading[1.6] font-serif text-lightBrown">
+                A gym is a club, building, or large room, usually containing
+                special equipment, where people go to
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center space-x-7">
+            <a
+              href="#"
+              class="text-white text-22px font-bold font-serif bg-brightRed py-3 px-14 rounded-[29px]"
+              >Join Now</a
+            >
+            <a
+              href="#"
+              class="text-22px text-darkBrown font-serif border border-brightRed py-3 px-14 rounded-[29px]"
+              >Know More</a
+            >
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="relative w-1/2">
+          <img src="../images/hero.png" alt="" />
+
+          <!-- Dots -->
+          <div
+            class="absolute bottom-0 right-6 translate-y-1/2 z-30 flex flex-col space-y-[10px]"
+          >
+            <!-- Row 1 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 2 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 3 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 4 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 5 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 6 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 7 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 8 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 9 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Button -->
+        <div
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 flex items-center justify-center rounded-full bg-white shadow-2xl hover:cursor-pointer hover:scale-105 hover:opacity-75 duration-200"
+        >
+          <img src="../images/icons/play.png" alt="" />
+        </div>
+
+        <p
+          class="absolute bottom-0 translate-y-1/2 left-20 text-200px font-semibold text-brightRed/5"
+        >
+          Exercise
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="px-32 my-56">
+        <div class="flex flex-col space-y-14 items-center">
+          <!-- Top -->
+          <div class="flex flex-col items-center text-center space-y-7">
+            <p class="text-brightRed text-26px font-semibold">Our Services</p>
+            <p class="text-darkBrown text-44px font-bold leading-[1.3]">
+              Awesome Packages That We Offer For Our Clients
+            </p>
+          </div>
+          <!-- Bottom -->
+          <div class="grid grid-cols-4 gap-7">
+            <!-- Card 1 -->
+            <div
+              class="p-16 flex flex-col space-y-12 items-center text-center bg-white shadow-lg rounded-md rounded-bl-[35px]"
+            >
+              <img src="../images/icons/card-1-1.png" alt="" />
+              <p
+                class="text-darkBrown text-24px font-serif font-bold leading-[1.2]"
+              >
+                Meditation Programme
+              </p>
+            </div>
+            <!-- Card 2 -->
+            <div
+              class="p-16 flex flex-col space-y-12 items-center text-center bg-white shadow-lg rounded-md rounded-bl-[35px]"
+            >
+              <img src="../images/icons/card-1-2.png" alt="" />
+              <p
+                class="text-darkBrown text-24px font-serif font-bold leading-[1.2]"
+              >
+                Muscle Building
+              </p>
+            </div>
+            <!-- Card 3 -->
+            <div
+              class="p-16 flex flex-col space-y-12 items-center text-center bg-white shadow-lg rounded-md rounded-bl-[35px]"
+            >
+              <img src="../images/icons/card-1-3.png" alt="" />
+              <p
+                class="text-darkBrown text-24px font-serif font-bold leading-[1.2]"
+              >
+                Cardio Programme
+              </p>
+            </div>
+            <!-- Card 4 -->
+            <div
+              class="p-16 flex flex-col space-y-12 items-center text-center bg-white shadow-lg rounded-md rounded-bl-[35px]"
+            >
+              <img src="../images/icons/card-1-4.png" alt="" />
+              <p
+                class="text-darkBrown text-24px font-serif font-bold leading-[1.2]"
+              >
+                Nutrition Supports
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits">
+      <div class="relative px-32">
+        <!-- Dots -->
+        <div
+          class="absolute -top-16 left-20 translate-y-1/2 z-30 flex flex-col space-y-[10px]"
+        >
+          <!-- Row 1 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 2 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 3 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 4 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 5 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 6 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 7 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 8 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 9 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="flex items-center space-x-24 pl-11 pt-11 pr-4">
+          <!-- Card Left -->
+          <img class="w-1/2" src="../images/card-left.png" alt="" />
+          <!-- Card Right -->
+          <div class="flex flex-col items-start">
+            <p
+              class="text-26px font-semibold text-brightRed leading-[1.6] pb-7"
+            >
+              Health Benefits
+            </p>
+            <p class="text-44px font-bold text-darkBrown leading-[1.3] pb-5">
+              Physical Exercise Gives Your Body The Wings
+            </p>
+            <p class="text-lightBrown text-22px font-serif leading-[1.6] pb-10">
+              Physical activity and exercise can have immediate and long-term
+              health benefits. Most importantly, regular activity can improve
+              your quality of life.Exercise can improve your health and reduce
+              the risk of
+            </p>
+            <a
+              href="#"
+              class="bg-brightRed text-white text-22px font-serif leading-[1.6] px-11 py-3 rounded-3xl"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits">
+      <div class="relative px-32 mt-52">
+        <!-- Dots -->
+        <div
+          class="absolute bottom-4 right-10 translate-y-1/2 z-30 flex flex-col space-y-[10px]"
+        >
+          <!-- Row 1 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 2 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 3 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 4 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 5 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 6 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 7 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 8 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+          <!-- Row 9 -->
+          <div class="flex items-center space-x-[10px]">
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="flex items-center space-x-24 pl-11 pt-11 pr-4">
+          <!-- Card Left -->
+          <div class="flex flex-col items-start">
+            <p
+              class="text-26px font-semibold text-brightRed leading-[1.6] pb-7"
+            >
+              Improve Moods
+            </p>
+            <p class="text-44px font-bold text-darkBrown leading-[1.3] pb-5">
+              Makes You More Active And Improve Moods
+            </p>
+            <p class="text-lightBrown text-22px font-serif leading-[1.6] pb-10">
+              Physical activity and exercise can have immediate and long-term
+              health benefits. Most importantly, regular activity can improve
+              your quality of life.Exercise can improve your health and reduce
+              the risk of
+            </p>
+            <a
+              href="#"
+              class="bg-brightRed text-white text-22px font-serif leading-[1.6] px-11 py-3 rounded-3xl"
+              >Learn more</a
+            >
+          </div>
+
+          <!-- Card Right -->
+          <img class="w-1/2" src="../images/card-right.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Instructors Section -->
+    <section id="instructors">
+      <div class="my-36 px-52 flex flex-col items-center space-y-6">
+        <div class="flex flex-col text-center space-y-7">
+          <p class="text-26px font-semibold text-brightRed leading-[1.6]">
+            Our Instructors
+          </p>
+          <p
+            class="text-44px font-bold leading-[1.3] w-2/3 mx-auto text-darkBrown"
+          >
+            Meet Our Extreamly Talented Trainers
+          </p>
+        </div>
+        <div class="w-full flex items-end justify-between">
+          <!-- Instructor 1 -->
+          <div class="flex flex-col items-center text-center space-y-9">
+            <img src="../images/coach-1.png" alt="" />
+            <div class="flex flex-col text-center">
+              <p class="text-24px font-bold font-serif leading-[1.6]">
+                Jason Holder
+              </p>
+              <p class="text-20px text-lightBrown font-serif leading-[1.6]">
+                Cardio Expert
+              </p>
+            </div>
+          </div>
+
+          <!-- Instructor 2 -->
+          <div class="flex flex-col items-center text-center space-y-9">
+            <img src="../images/coach-2.png" alt="" />
+            <div class="flex flex-col text-center">
+              <p class="text-24px font-bold font-serif leading-[1.6]">
+                Jason Holder
+              </p>
+              <p class="text-20px text-lightBrown font-serif leading-[1.6]">
+                Cardio Expert
+              </p>
+            </div>
+          </div>
+
+          <!-- Instructor 3 -->
+          <div class="flex flex-col items-center text-center space-y-9">
+            <img src="../images/coach-3.png" alt="" />
+            <div class="flex flex-col text-center">
+              <p class="text-24px font-bold font-serif leading-[1.6]">
+                Jason Holder
+              </p>
+              <p class="text-20px text-lightBrown font-serif leading-[1.6]">
+                Cardio Expert
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="test">
+      <div class="px-32 flex items-stretch">
+        <!-- Left -->
+        <img src="../images/test.png" class="w-5/12" alt="" />
+        <!-- Right -->
+        <div class="relative px-24 flex flex-col items-start space-y-7">
+          <div class="absolute z-20 bottom-12 -left-16 p-14 rounded-tr-[100px] w-full bg-white flex flex-col items-start space-y-10 shadow-2xl">
+            <p class="text-22px text-lightBrown italic leading-[1.6]">“Gale is an amazing trainer as well as a great person. She is so flexible when it comes to my crazy work schedule and makes sure to always fit me in. Every day she pushes me harder towards my goals.”</p>
+            <div class="flex flex-col space-y-2">
+              <p class="text-24px text-darkBrown font-bold leading-[1.3]">Jessica Parker</p>
+              <p class="text-18px leading-[1.3] text-lightBrown">Mariland,USA</p>
+            </div>
+          </div>
+
+          <!-- Dots -->
+          <div
+            class="absolute z-10 bottom-14 -right-6 translate-y-1/2 flex flex-col space-y-[10px]"
+          >
+            <!-- Row 1 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 2 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 3 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 4 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 5 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 6 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 7 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 8 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+            <!-- Row 9 -->
+            <div class="flex items-center space-x-[10px]">
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+              <div class="w-[6px] h-[6px] bg-brightRed/60 rounded-full"></div>
+            </div>
+          </div>
+
+          <p class="text-brightRed text-26px font-semibold leading-[1.6]">
+            Testimonial
+          </p>
+          <p class="text-44px text-darkBrown font-bold leading-[1.3]">
+            That’s What Our Super Client Says
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+     <section id="newsletter">
+      <div class="px-32 my-52">
+        <div class="w-2/3 mx-auto flex flex-col items-center text-center">
+          <p class="text-44px text-darkBrown font-bold leading-[1.3] pb-6">Subscribe Our Fitness Articles</p>
+          <p class="text-22px font-serif text-lightBrown leading-[1.6] pb-9">Physical activity is defined as any bodily movement produced by 
+            skeletal muscles that results in energy expenditure</p>
+          <div class="flex w-full items-center justify-between bg-white rounded-3xl shadow-xl py-1 overflow-hidden drop-shadow-[0_40px_80px_rgba(255,169,169,0.25)]">
+            <input type="text" placeholder="Type Your Email Address" class="py-5 pl-20 placeholder:text-20px placeholder:font-serif placeholder:leading-[1.6] placeholder:text-placeholderGray focus:outline-none">
+            <a href="#" class="text-20px text-white font-bold leading-[1.6] px-9 py-5 bg-brightRed rounded-3xl mr-0.5">Subscribe</a>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- Footer -->
+      <footer id="footer">
+        <div class="px-32 py-20 flex items-start bg-pinky/90">
+          <!-- Left -->
+           <div class="flex flex-col space-y-8 w-2/5">
+            <div class="flex items-center space-x-3">
+              <img src="../images/icons/logo-footer.png" alt="">
+              <p class="text-28px font-abril italic leading-[1.2] text-darkBrown">Golds Gym</p>
+            </div>
+            <p class="text-lightBrown text-22px font-serif w-2/3">A Modified Fitness Club that
+              provide fitness & nutrition related services to improve your health</p>
+           </div>
+
+           <!-- Right -->
+            <div class="flex w-3/5 items-start justify-between">
+              <!-- Stack 1 -->
+               <div class="flex flex-col space-y-8">
+                <a href="#" class="text-darkBrown text-24px font-semibold ">Resources</a>
+                <div class="flex flex-col space-y-4">
+                  <a href="#" class="text-22px font-serif text-lightBrown">Features</a>
+                  <a href="#" class="text-22px font-serif text-lightBrown">Features</a>
+                  <a href="#" class="text-22px font-serif text-lightBrown">Features</a>
+                  <a href="#" class="text-22px font-serif text-lightBrown">Features</a>
+                </div>
+               </div>
+
+               <!-- Stack 2 -->
+               <div class="flex flex-col space-y-8">
+                <a href="#" class="text-darkBrown text-24px font-semibold ">About</a>
+                <div class="flex flex-col space-y-4">
+                  <a href="#" class="text-22px font-serif text-lightBrown">Blog</a>
+                  <a href="#" class="text-22px font-serif text-lightBrown">FAQs</a>
+                  <a href="#" class="text-22px font-serif text-lightBrown">Policy</a>
+                  <a href="#" class="text-22px font-serif text-lightBrown">Contact</a>
+                </div>
+               </div>
+
+               <!-- Stack 3 -->
+               <div class="flex flex-col space-y-8">
+                <a href="#" class="text-darkBrown text-24px font-semibold ">Helpful Links</a>
+                <div class="flex flex-col space-y-4">
+                  <a href="#" class="text-22px font-serif text-lightBrown">Articles</a>
+                  <a href="#" class="text-22px font-serif text-lightBrown">Nutritions</a>
+                  <a href="#" class="text-22px font-serif text-lightBrown">Meditation</a>
+                  <a href="#" class="text-22px font-serif text-lightBrown">Services</a>
+                </div>
+               </div>
+            </div>
+        </div>
+      </footer>
+  </body>
+</html>

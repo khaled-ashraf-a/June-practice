@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Readex+Pro:wght@160..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>California</title>
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <nav class="px-20 py-8 flex justify-between items-center uppercase">
+      <img src="../images/logo.png" alt="" />
+      <div class="flex items-center space-x-8 text-14px">
+        <a href="#">All Products</a>
+        <a href="#">Solutions</a>
+        <a href="#">About</a>
+        <a href="#">Support</a>
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="#">
+          <img src="../images/icons/search.png" alt="" />
+        </a>
+        <a href="#">
+          <img src="../images/icons/cart.png" alt="" />
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="mx-20 my-7 relative">
+        <!-- Arrows -->
+        <img
+          class="absolute top-1/2 -translate-y-1/2 left-4"
+          src="../images/icons/arrow-left.png"
+          alt=""
+        />
+        <img
+          class="absolute top-1/2 -translate-y-1/2 right-4"
+          src="../images/icons/arrow-right.png"
+          alt=""
+        />
+
+        <div class="flex items-center bg-hero rounded-[32px] px-14">
+          <!-- Left -->
+          <div class="w-1/2 flex flex-col items-start py-16">
+            <h1 class="text-58px leading-[70px] font-readex">
+              The new phones are here take a look.
+            </h1>
+            <p class="text-16px pt-5 pb-7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.
+            </p>
+            <a
+              href="#"
+              class="text-18px py-3 px-14 border border-black rounded-full"
+              >Explore</a
+            >
+          </div>
+          <!-- Right -->
+          <div class="w-1/2 self-end">
+            <img src="../images/IMAGE.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Offers Section -->
+    <section id="offers">
+      <div class="px-20 py-10 flex flex-col space-y-14">
+        <div class="flex flex-col items-center text-center space-y-2 font-readex">
+          <h2 class="text-42px">Shop our latest offers and categories</h2>
+          <p class="text-14px w-1/2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+            in est dui, aliquam, tempor. Faucibus morbi turpis. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+
+        <div class="grid gap-4 grid-cols-4">
+          <div class="grid gap-8 grid-cols-1 col-span-2 row-span-3">
+            <div
+              class="flex flex-col items-end row-span-2 shadow-lg bg-offWhite px-10"
+            >
+              <img src="../images/IMAGE-1.png" alt="" />
+              <div class="flex flex-col items-end w-2/5 text-right">
+                <p class="text-15px">Laptops</p>
+                <p class="text-32px font-readex">True Laptop Solution</p>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between row-span-1 shadow-lg bg-offWhite px-10"
+            >
+              <img class="w-3/5" src="../images/IMAGE-4.png" alt="" />
+              <div class="flex flex-col items-end text-right">
+                <p class="text-15px">Watch</p>
+                <p class="text-32px font-readex">Not just stylisht</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col space-y-10 justify-center text-center items-center col-span-1 row-span-3 shadow-lg bg-offWhite"
+          >
+            <img src="../images/IMAGE-2.png" alt="" />
+            <div>
+              <p class="text-15px">Phones</p>
+              <p class="text-32px font-readex">Your day to day life</p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col space-y-10 justify-center text-center items-center col-span-1 row-span-3 shadow-lg bg-offWhite"
+          >
+            <div>
+              <p class="text-15px">Tablet</p>
+              <p class="text-32px font-readex">Empower your work</p>
+            </div>
+            <img src="../images/IMAGE-3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Sellers Section -->
+    <section id="best-sellers">
+      <div class="px-20 flex flex-col">
+        <div class="flex flex-col items-center text-center py-10 font-readex">
+          <h2 class="text-42px">Save on our most sold items.</h2>
+          <p class="text-13px">
+            Our new Limited Edition Winter Design BESPOKE 4-Door Flex™
+          </p>
+        </div>
+        <div class="grid gap-7 grid-cols-4 pb-14">
+          <!-- Item 1 -->
+          <div class="flex flex-col items-start">
+            <img class="mb-8 self-center" src="../images/IMAGE-5.png" alt="" />
+            <div class="flex flex-col space-y-2">
+              <p class="text-22px font-readex">MacBook Pro 13</p>
+              <p class="text-14px text-grayText">
+                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+              </p>
+            </div>
+            <p class="text-18px mt-6">$ 1,200.00 USD</p>
+          </div>
+          <!-- Item 2 -->
+          <div class="flex flex-col items-start">
+            <img class="mb-8 self-center" src="../images/IMAGE-6.png" alt="" />
+            <div class="flex flex-col space-y-2">
+              <p class="text-22px font-readex">Smart Galaxy Watch 3</p>
+              <p class="text-14px text-grayText">
+                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+              </p>
+            </div>
+            <p class="text-18px mt-6">$ 199.00 USD</p>
+          </div>
+          <!-- Item 3 -->
+          <div class="flex flex-col items-start">
+            <img class="mb-8 self-center" src="../images/IMAGE-7.png" alt="" />
+            <div class="flex flex-col space-y-2">
+              <p class="text-22px font-readex">MacBook Air M1</p>
+              <p class="text-14px text-grayText">
+                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+              </p>
+            </div>
+            <p class="text-18px mt-6">$ 1,009.00 USD</p>
+          </div>
+          <!-- Item 4 -->
+          <div class="flex flex-col items-start">
+            <img class="mb-8 self-center" src="../images/IMAGE-8.png" alt="" />
+            <div class="flex flex-col space-y-2">
+              <p class="text-22px font-readex">iPad</p>
+              <p class="text-14px text-grayText">
+                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+              </p>
+            </div>
+            <p class="text-18px mt-6">$ 610.00 USD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Section -->
+    <section id="best">
+      <div class="px-20 flex flex-col">
+        <div class="flex flex-col items-center text-center py-10 font-readex">
+          <h2 class="text-42px">See the best around here</h2>
+          <p class="text-13px">
+            Our new Limited Edition Winter Design BESPOKE 4-Door Flex™
+          </p>
+        </div>
+        <div class="grid gap-7 grid-cols-3 pb-14">
+          <!-- Item 1 -->
+          <div
+            class="bg-cardGray flex flex-col space-y-7 items-center text-center justify-end pt-10"
+          >
+            <div class="font-readex">
+              <p class="text-13px">Smart light bulb pack</p>
+              <p class="text-28px">Latest and greatest</p>
+            </div>
+            <a href="#" class="px-14 py-3 rounded-full border border-black"
+              >Explore</a
+            >
+            <img src="../images/IMAGE-9.png" alt="" />
+          </div>
+
+          <!-- Item 2 -->
+          <div
+            class="bg-cardGray flex flex-col space-y-7 items-center text-center justify-end pt-10"
+          >
+            <div class="font-readex">
+              <p class="text-13px">Smart light bulb pack</p>
+              <p class="text-28px">Best selling</p>
+            </div>
+            <a href="#" class="px-14 py-3 rounded-full border border-black"
+              >Explore</a
+            >
+            <img src="../images/IMAGE-10.png" alt="" />
+          </div>
+
+          <!-- Item 3 -->
+          <div
+            class="bg-cardGray flex flex-col space-y-7 items-center text-center justify-end pt-10"
+          >
+            <div class="font-readex">
+              <p class="text-13px">Smart light bulb pack</p>
+              <p class="text-28px">Every product</p>
+            </div>
+            <a href="#" class="px-14 py-3 rounded-full border border-black"
+              >Explore</a
+            >
+            <img src="../images/IMAGE-11.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ideas Section -->
+    <section id="ideas">
+      <div class="px-20 flex flex-col">
+        <div class="flex flex-col items-center text-center py-10 font-readex">
+          <h2 class="text-42px">Ideas have a place here</h2>
+          <p class="text-13px">
+            Our new Limited Edition Winter Design BESPOKE 4-Door Flex™
+          </p>
+        </div>
+        <div class="flex items-start space-x-9 pb-14 pt-4">
+          <img class="w-1/2" src="../images/IMAGE-16.png" alt="" />
+          <div class="w-1/2 flex flex-col space-y-6 text-24px">
+            <p>We Make It Easy To Find The Great Design Talent, Easier...</p>
+            <p>Road Design Handbook For The International Road...</p>
+            <p>The Best Kept Secrets About Creative People</p>
+            <p>We Make It Easy To Find The Great Design Talent, Easier...</p>
+          </div>
+        </div>
+        <a
+          href="#"
+          class="flex justify-center items-center self-center text-24px"
+          >See All
+          <span><img src="../images/icons/arrow-top.png" alt="" /></span
+        ></a>
+      </div>
+    </section>
+
+    <!-- Search Section -->
+    <section id="search">
+      <div class="px-20 py-10 flex flex-col">
+        <!-- Top -->
+        <div
+          class="flex flex-col items-center space-y-4 text-center w-7/12 mx-auto mb-12"
+        >
+          <p class="text-42px font-readex">Looking for anything else?</p>
+          <div
+            class="flex items-center p-4 rounded-full w-full border space-x-5 bg-cardGray"
+          >
+            <img src="../images/icons/search-big.png" alt="" />
+            <input
+              type="text"
+              placeholder="Search keyword"
+              class="placeholder:text-14px placeholder:text-black bg-transparent focus:outline-none"
+            />
+          </div>
+          <!-- Keywords -->
+          <div class="w-11/12 flex justify-center gap-2 pt-2 flex-wrap">
+            <!-- Item -->
+            <div class="text-14px px-5 py-3 border rounded-full">iPhone</div>
+            <!-- Item -->
+            <div class="text-14px px-5 py-3 border rounded-full">Charger</div>
+            <!-- Item -->
+            <div class="text-14px px-5 py-3 border rounded-full">Keyboard</div>
+            <!-- Item -->
+            <div class="text-14px px-5 py-3 border rounded-full">
+              Google Pixel 3
+            </div>
+            <!-- Item -->
+            <div class="text-14px px-5 py-3 border rounded-full">
+              Headphones
+            </div>
+            <!-- Item -->
+            <div class="text-14px px-5 py-3 border rounded-full">Laptop</div>
+            <!-- Item -->
+            <div class="text-14px px-5 py-3 border rounded-full">Monitor</div>
+            <!-- Item -->
+            <div class="text-14px px-5 py-3 border rounded-full">
+              Smartwatch
+            </div>
+            <!-- Item -->
+            <div class="text-14px px-5 py-3 border rounded-full">Tablet</div>
+          </div>
+        </div>
+        <!-- Bottom -->
+        <div
+          class="flex flex-col items-center space-y-4 text-center py-10 w-9/12 mx-auto bg-hero rounded-2xl"
+        >
+          <div>
+            <h2 class="text-42px font-readex">Never miss a thing</h2>
+            <p class="text-16px">
+              Sign up for texts to be notified about our best offers on the
+              perfect gifts.
+            </p>
+          </div>
+          <img src="../images/IMAGE-17.png" alt="" />
+          <div
+            class="flex border border-black rounded-full overflow-hidden"
+          >
+            <input
+              type="text"
+              placeholder="Your email"
+              class="py-4 pl-8 bg-transparent placeholder:text-black placeholder:text-14px focus:outline-none"
+            />
+
+            <a href="#" class="flex items-center px-8 bg-black text-white text-14px">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+     <footer id="footer">
+      <div class="px-20 py-11 flex items-start justify-between space-x-36 bg-cardGray">
+        <!-- Left -->
+         <div class="w-3/12 flex flex-col items-start space-y-4">
+          <img src="../images/logo-footer.png" alt="">
+          <p class="text-16px">Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+         </div>
+         <!-- Right -->
+          <div class="w-full flex items-start justify-between">
+            <!-- Col 1 -->
+            <div class="flex flex-col space-y-4">
+              <a href="#" class="text-22px font-readex">All Products</a>
+              <div class="flex flex-col space-y-3">
+                <a href="#" class="text-17px">Phones</a>
+                <a href="#" class="text-17px">Watch</a>
+                <a href="#" class="text-17px">Tablet</a>
+                <a href="#" class="text-17px">Laptops</a>
+              </div>
+            </div>
+            <!-- Col 2 -->
+            <div class="flex flex-col space-y-4">
+              <a href="#" class="text-22px font-readex">Company</a>
+              <div class="flex flex-col space-y-3">
+                <a href="#" class="text-17px">About</a>
+                <a href="#" class="text-17px">Support</a>
+              </div>
+            </div>
+            <!-- Col 3 -->
+            <div class="flex flex-col space-y-4">
+              <a href="#" class="text-22px font-readex">Support</a>
+              <div class="flex flex-col space-y-3">
+                <a href="#" class="text-17px">Style Guide</a>
+                <a href="#" class="text-17px">Licensing</a>
+                <a href="#" class="text-17px">Change Log</a>
+                <a href="#" class="text-17px">Contact</a>
+              </div>
+            </div>
+            <!-- Col 4 -->
+            <div class="flex flex-col space-y-4">
+              <a href="#" class="text-22px font-readex">Social Media</a>
+              <div class="flex flex-col space-y-3">
+                <a href="#" class="text-17px">Instagram</a>
+                <a href="#" class="text-17px">Facebook</a>
+                <a href="#" class="text-17px">Linkedin</a>
+                <a href="#" class="text-17px">Youtube</a>
+              </div>
+            </div>
+          </div>
+      </div>
+     </footer>
+  </body>
+</html>

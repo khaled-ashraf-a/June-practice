@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CatPress</title>
+  </head>
+
+  <body class="font-serif">
+    <!-- Navbar -->
+    <nav
+      class="flex justify-between items-center mt-6 px-4 pb-6 text-blackish md:mt-10 md:px-36 md:pb-10 border-b border-border"
+    >
+      <!-- Nav Left -->
+      <div>
+        <a class="text-19px font-sans" href="#">Castpress.</a>
+      </div>
+      <!-- Nav Right -->
+      <div
+        class="h-8 px-1 py-2 flex flex-col justify-around hover:scale-125 hover:cursor-pointer duration-200 md:hidden"
+      >
+        <div class="h-[2px] w-6 bg-black"></div>
+        <div class="h-[2px] w-6 bg-black"></div>
+      </div>
+      <div
+        class="hidden items-center space-x-10 text-12px font-semibold md:flex"
+      >
+        <a href="#">Episodes</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#">
+          <div class="flex items-center space-x-1 text-lightPurple">
+            <img src="../images/icons/heart.png" alt="" />
+            <p>Donate</p>
+          </div>
+        </a>
+        <a href="#">
+          <span>
+            <img src="../images/icons/search.png" alt="" />
+          </span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Content Section -->
+    <section id="content">
+      <div class="my-12 px-4 md:mt-24 md:mb-16 md:px-0">
+        <!-- Player Section -->
+        <section id="player">
+          <div
+            class="flex flex-col items-center mb-16 space-y-10 mx-auto max-w-2xl md:mb-24"
+          >
+            <img src="../images/1.png" alt="" />
+            <h1 class="text-26px font-semibold">
+              How to rapidly test any experience!
+            </h1>
+            <!-- Player Controls -->
+            <div class="flex space-x-3 items-center">
+              <img src="../images/icons/play.png" alt="" />
+              <div class="flex space-x-2 items-center">
+                <p>00:00</p>
+                <div class="h-2 min-w-36 bg-border rounded-md md:w-96"></div>
+                <p>02:45</p>
+              </div>
+              <img src="../images/icons/audio.png" alt="" />
+            </div>
+            <!-- Listen On -->
+            <div class="flex flex-col space-y-3">
+              <p class="text-12px font-semibold text-center">Listen On</p>
+              <div class="flex items-center space-x-7">
+                <img src="../images/icons/spotify.png" alt="" />
+                <img src="../images/icons/soundcloud.png" alt="" />
+                <img src="../images/icons/apple.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Episodes Section -->
+    <section id="episodes">
+      <div class="px-4 mb-16 md:px-0">
+        <div class="flex flex-col mx-auto space-y-12 max-w-2xl md:space-y-16">
+          <!-- Episode 1 -->
+          <div class="flex flex-col space-y-3">
+            <div class="flex items-center space-x-2">
+              <div
+                class="p-1 text-10px font-semibold bg-border text-lightPurple uppercase"
+              >
+                new
+              </div>
+              <div class="flex items-center space-x-2 text-14px text-smallGray">
+                <p>Business</p>
+                <span>|</span>
+                <p>Jan 18, 2021</p>
+              </div>
+            </div>
+            <div class="text-21px font-semibold">
+              23 - Makemeup Podcast Theme
+            </div>
+            <p
+              class="line-clamp-2 md:line-clamp-none text-lightGray text-16px leading-loose"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+              ipsum dolor sit amet, consect adipiscing elit. Sed at arcu dui.
+              Aenean placerat mauris nisl...
+            </p>
+            <div class="flex items-center space-x-2 pt-1">
+              <img src="../images/icons/play-2.png" alt="" />
+              <p class="text-lightPurple text-12px font-semibold uppercase">
+                Play Now
+              </p>
+            </div>
+          </div>
+
+          <!-- Episode 2 -->
+          <div class="flex flex-col space-y-3">
+            <div class="flex items-center space-x-2">
+              <div
+                class="p-1 text-10px font-semibold bg-border text-lightPurple uppercase"
+              >
+                new
+              </div>
+              <div class="flex items-center space-x-2 text-14px text-smallGray">
+                <p>Education</p>
+                <span>|</span>
+                <p>Jan 18, 2021</p>
+              </div>
+            </div>
+            <div class="text-21px font-semibold">
+              22 - Makemeup Podcast Theme; launch an audio podcast website
+            </div>
+            <p
+              class="line-clamp-2 md:line-clamp-none text-lightGray text-16px leading-loose"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+              ipsum dolor sit amet, consect adipiscing elit. Sed at arcu dui.
+              Aenean placerat mauris nisl...
+            </p>
+            <div class="flex items-center space-x-2 pt-1">
+              <img src="../images/icons/play-2.png" alt="" />
+              <p class="text-lightPurple text-12px font-semibold uppercase">
+                Play Now
+              </p>
+            </div>
+          </div>
+
+          <!-- Episode 3 -->
+          <div class="flex flex-col space-y-3">
+            <div class="flex items-center space-x-2">
+              <div
+                class="p-1 text-10px font-semibold bg-border text-lightPurple uppercase"
+              >
+                new
+              </div>
+              <div class="flex items-center space-x-2 text-14px text-smallGray">
+                <p>Market</p>
+                <span>|</span>
+                <p>Jan 18, 2021</p>
+              </div>
+            </div>
+            <div class="text-21px font-semibold">
+              21 - Makemeup Podcast Theme ; launch it now!
+            </div>
+            <p
+              class="line-clamp-2 md:line-clamp-none text-lightGray text-16px leading-loose"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+              ipsum dolor sit amet, consect adipiscing elit. Sed at arcu dui.
+              Aenean placerat mauris nisl...
+            </p>
+            <div class="flex items-center space-x-2 pt-1">
+              <img src="../images/icons/play-2.png" alt="" />
+              <p class="text-lightPurple text-12px font-semibold uppercase">
+                Play Now
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pages -->
+        <div
+          class="flex items-center space-x-1 mx-auto max-w-2xl mt-12 md:mt-16"
+        >
+          <div class="px-3 py-2 text-12px text-lightGray bg-border rounded-md">
+            1
+          </div>
+          <div class="px-3 py-2 text-12px text-lightGray bg-border rounded-md">
+            2
+          </div>
+          <div class="px-3 py-2 text-12px text-lightGray bg-border rounded-md">
+            3
+          </div>
+          <div class="px-3 py-2 text-12px text-lightGray bg-border rounded-md">
+            ...
+          </div>
+          <img class="pl-4" src="../images/icons/page-arrow.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+      <div class="px-4 mb-16 md:px-0">
+        <div class="max-w-2xl mx-auto">
+          <h2 class="text-26px font-semibold mb-6">Team</h2>
+
+          <div
+            class="flex flex-col items-start space-y-6 md:flex-row md:items-center md:space-y-0 md:justify-between"
+          >
+            <!-- Team Member 1 -->
+            <div class="inline-flex flex-col bg-backgroundWhite">
+              <div class="flex flex-col">
+                <div class="bg-[url('../images/team1.png')] w-72 h-72"></div>
+                <div class="flex flex-col p-4 md:px-2 md:py-4">
+                  <div class="flex flex-col space-y-2">
+                    <p class="text-12px font-semibold text-lightPurple">
+                      Position
+                    </p>
+                    <p class="text-18px text-blackish">Aida Cave</p>
+                  </div>
+                  <div class="flex space-x-4 items-center mt-10">
+                    <img src="../images/icons/linkedin.png" alt="" />
+                    <img src="../images/icons/github.png" alt="" />
+                    <img src="../images/icons/twitter.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="inline-flex flex-col bg-backgroundWhite">
+              <div class="flex flex-col">
+                <div class="bg-[url('../images/team2.png')] w-72 h-72"></div>
+                <div class="flex flex-col p-4 md:px-2 md:py-4">
+                  <div class="flex flex-col space-y-2">
+                    <p class="text-12px font-semibold text-lightPurple">
+                      Position
+                    </p>
+                    <p class="text-18px text-blackish">Nick Carleton</p>
+                  </div>
+                  <div class="flex space-x-4 items-center mt-10">
+                    <img src="../images/icons/linkedin.png" alt="" />
+                    <img src="../images/icons/github.png" alt="" />
+                    <img src="../images/icons/twitter.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Posts Section -->
+    <section id="posts">
+      <div class="px-4 mb-12 md:px-0 md:mb-16">
+        <div class="max-w-2xl mx-auto">
+          <h2 class="text-26px font-semibold mb-6">Latest Posts</h2>
+          <div class="flex flex-col space-y-10 mb-10 md:space-y-6">
+            <!-- Post 1 -->
+            <div class="flex flex-col items-start space-y-4 md:flex-row md:space-y-0 md:space-x-10">
+              <img src="../images/post1.png" alt="" />
+              <div class="flex flex-col space-y-4">
+                <h3 class="text-21px font-semibold max-w-xs md:max-w-max">
+                  How to create your own podcast cover art?
+                </h3>
+                <p class="text-14px text-smallGray">Dec 4, 2019</p>
+                <a
+                  class="text-lightPurple text-14px font-semibold hover:cursor-pointer hover:scale-105 duration-200 md:pt-6"
+                  href="#"
+                  >Read More</a
+                >
+              </div>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="flex flex-col items-start space-y-4 md:flex-row md:space-y-0 md:space-x-10">
+              <img src="../images/post2.png" alt="" />
+              <div class="flex flex-col space-y-4">
+                <h3 class="text-21px font-semibold max-w-xs md:max-w-max">
+                  How to create your own podcast cover art?
+                </h3>
+                <p class="text-14px text-smallGray">Dec 4, 2019</p>
+                <a
+                  class="text-lightPurple text-14px font-semibold hover:cursor-pointer hover:scale-105 duration-200 md:pt-6"
+                  href="#"
+                  >Read More</a
+                >
+              </div>
+            </div>
+
+          </div>
+          <div class="inline-flex items-center space-x-2 px-4 py-2 bg-backgroundWhite rounded-lg">
+            <p class="text-14px text-lightPurple">View Blog</p>
+            <img src="../images/icons/arrow-purple.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+      <div class="px-4 md:px-0">
+        <div class="max-w-2xl mx-auto py-12 md:py-16 border-t">
+          <div class="flex flex-col justify-between space-y-8 md:space-y-0 md:flex-row">
+            <!-- Stack 1 -->
+             <div class="flex flex-col space-y-2">
+              <a href="#" class="text-14px font-semibold text-lightGray">Episodes</a>
+              <a href="#" class="text-14px font-semibold text-lightGray">Blog</a>
+              <a href="#" class="text-14px font-semibold text-lightGray">Contact</a>
+              <a href="#" class="text-14px font-semibold text-lightGray">Donate</a>
+             </div>
+             <!-- Stack 2 -->
+              <div class="flex flex-col items-start">
+                <p class="text-blackish text-16px font-semibold pb-1 md:pb-2">Newsletter</p>
+                <p class="text-12px text-lightGray pb-4">Sign up now;  get closer to our action.</p>
+                <div class="flex items-center bg-backgroundWhite">
+                  <input class="pl-3 py-4 bg-backgroundWhite placeholder:text-12px placeholder:text-lightGray focus:outline-none" type="text" placeholder="Email address...">
+                  <a href="#" class="flex justify-center items-center px-3 py-4 bg-lightPurple mr-1 shrink-0 rounded-md">
+                    <img src="../images/icons/arrow-footer.png" alt="">
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
